@@ -7,13 +7,10 @@ import NavBar from './components/layout/navigation/NavBar/NavBar';
 import DeptoCard from './components/layout/information/Cards/DeptoCard';
 import SearchComunas from './components/layout/display/LandinPage/SearchComunas';
 import SuscripcionView from './components/layout/display/LandinPage/SuscripcionView';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-
-
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <div>
       <div>
         <StyledEngineProvider injectFirst>
           <NavBar />
@@ -45,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
