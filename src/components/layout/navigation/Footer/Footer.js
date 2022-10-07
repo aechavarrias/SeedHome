@@ -7,39 +7,44 @@ import {
   FooterLink,
   Heading,
 } from "./FooterStyles";
-  
+import { Nav, Barsbutton, NavMenu, NavLink } from "./NavbarElements";
+import logo_sin_letras from "../../../../static/images/Logos/logo_sin_letras.png";
+
 const Footer = () => {
   return (
     <Box>
             <Container>
             <Row>
                 <Column>
-                <Heading>About Us</Heading>
-                <FooterLink href="#">Aim</FooterLink>
-                <FooterLink href="#">History</FooterLink>
-                <FooterLink href="#">Services</FooterLink>
-                <FooterLink href="#">Locations</FooterLink>
+                  <img src={logo_sin_letras} alt="logo" width="100px" height="100px" />
                 </Column>
                 <Column>
-                <Heading>Contact Us</Heading>
-                <FooterLink href="#">Contact</FooterLink>
-                <FooterLink href="#">Support</FooterLink>
-                <FooterLink href="#">Destinations</FooterLink>
-                <FooterLink href="#">Sponsorships</FooterLink>
+                  <Heading>About Us</Heading>
+                  <FooterLink href="/signup">Aim</FooterLink>
+                  <FooterLink href="#">History</FooterLink>
+                  <FooterLink href="#">Services</FooterLink>
+                  <FooterLink href="#">Locations</FooterLink>
                 </Column>
                 <Column>
-                <Heading>Videos</Heading>
-                <FooterLink href="#">Submit Video</FooterLink>
-                <FooterLink href="#">Ambassadors</FooterLink>
-                <FooterLink href="#">Agency</FooterLink>
-                <FooterLink href="#">Influencer</FooterLink>
+                  <Heading>Contact Us</Heading>
+                  <FooterLink href="#">Contact</FooterLink>
+                  <FooterLink href="/about">Support</FooterLink>
+                  <FooterLink href="#">Destinations</FooterLink>
+                  <FooterLink href="#">Sponsorships</FooterLink>
                 </Column>
                 <Column>
-                <Heading>Social Media</Heading>
-                <FooterLink href="#">Instagram</FooterLink>
-                <FooterLink href="#">Facebook</FooterLink>
-                <FooterLink href="#">Youtube</FooterLink>
-                <FooterLink href="#">Twitter</FooterLink>
+                  <Heading>Videos</Heading>
+                  <FooterLink href="#">Submit Video</FooterLink>
+                  <FooterLink href="#">Ambassadors</FooterLink>
+                  <FooterLink href="#">Agency</FooterLink>
+                  <FooterLink href="#">Influencer</FooterLink>
+                </Column>
+                <Column>
+                  <Heading>Social Media</Heading>
+                  <FooterLink href="#">Instagram</FooterLink>
+                  <FooterLink href="#">Facebook</FooterLink>
+                  <FooterLink href="#">Youtube</FooterLink>
+                  <FooterLink href="#">Twitter</FooterLink>
                 </Column>
             </Row>
             </Container>
